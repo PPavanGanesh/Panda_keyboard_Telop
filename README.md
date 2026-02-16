@@ -1,6 +1,3 @@
-Here's the README:
-
-
 # Teleop Keyboard for Franka Panda Robot
 
 This ROS2-based Python script allows you to control the Franka Panda robot's movement using the keyboard. The robot's end-effector moves continuously in a Cartesian space along the X, Y, or Z axes based on key presses. Additionally, you can control the robot's gripper with specific key presses. The script uses `pynput` for keyboard input and ROS2 actions to send movement commands to the robot.
@@ -101,7 +98,4 @@ Once the script is running, use the keys specified above to move the robot and c
 - **Robot not moving**: Make sure the ROS2 action server for `/MoveL` is running and the robot is in a ready state or kill the terminal and run the python code file for the kyeboard control.
 - **Gripper control not working**: Ensure that your gripper is correctly set up and mapped to the relevant ROS2 actions or topics.
 - **Keyboard input issues**: Ensure that the `pynput` library is installed correctly, and check for any permission issues related to reading from the keyboard.
- 
-## License
 
-The above simulation of the Franka robot has been based on IFRA (Intelligent Flexible Robotics and Assembly) Group, CRANFIELD UNIVERSITY. Heavily relies on the above repository for errors and issues.

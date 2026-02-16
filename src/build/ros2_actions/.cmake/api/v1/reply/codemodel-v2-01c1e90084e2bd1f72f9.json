@@ -1,0 +1,169 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-1a81f3814663798b2344.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ros2_actions",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "moveG_action::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveG_action-9e3c00bbbe45c0ad254c.json",
+					"name" : "moveG_action",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveJ_action::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveJ_action-3444a14bead164f12abb.json",
+					"name" : "moveJ_action",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveJs_action::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveJs_action-9f930c98bec29ad3e8e0.json",
+					"name" : "moveJs_action",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveL_action::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveL_action-6d96583d36f68ce0b013.json",
+					"name" : "moveL_action",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveROT_action::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveROT_action-a4aefd6734d658be8ae4.json",
+					"name" : "moveROT_action",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveRP_action::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveRP_action-dc44d893c864e46927e5.json",
+					"name" : "moveRP_action",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveR_action::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveR_action-d1f3d269be58e80bdd1f.json",
+					"name" : "moveR_action",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveRs_action::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveRs_action-d9d5aa45805343e732bf.json",
+					"name" : "moveRs_action",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveXYZW_action::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveXYZW_action-98c887dfa1a0aeb050e7.json",
+					"name" : "moveXYZW_action",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveXYZ_action::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveXYZ_action-468d58f101d5a4e33301.json",
+					"name" : "moveXYZ_action",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveYPR_action::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveYPR_action-90cf9d5c54aa402ec4af.json",
+					"name" : "moveYPR_action",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_actions_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_actions_uninstall-b8214e211d462afed3ed.json",
+					"name" : "ros2_actions_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-93e3e327163093898517.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/manideep/FrankaSimulator_Ws/src/build/ros2_actions",
+		"source" : "/home/manideep/FrankaSimulator_Ws/src/ros2_actions"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

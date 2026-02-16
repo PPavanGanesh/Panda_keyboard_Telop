@@ -1,0 +1,80 @@
+[0.010s] Invoking command in '/home/manideep/FrankaSimulator_Ws/build/panda_ros2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manideep/ws_moveit2/install/moveit_configs_utils:/home/manideep/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/manideep/FrankaSimulator_Ws/src/PandaRobot/panda_ros2_gazebo -DCMAKE_INSTALL_PREFIX=/home/manideep/FrankaSimulator_Ws/install/panda_ros2_gazebo
+[0.081s] -- The C compiler identification is GNU 11.4.0
+[0.163s] -- The CXX compiler identification is GNU 11.4.0
+[0.170s] -- Detecting C compiler ABI info
+[0.230s] -- Detecting C compiler ABI info - done
+[0.235s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.235s] -- Detecting C compile features
+[0.236s] -- Detecting C compile features - done
+[0.238s] -- Detecting CXX compiler ABI info
+[0.301s] -- Detecting CXX compiler ABI info - done
+[0.306s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.306s] -- Detecting CXX compile features
+[0.306s] -- Detecting CXX compile features - done
+[0.313s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.417s] -- Found Python3: /home/manideep/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.526s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.617s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.620s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.621s] -- Added test 'lint_cmake' to check CMake code style
+[0.622s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.623s] -- Added test 'xmllint' to check XML markup files
+[0.625s] -- Configuring done
+[0.626s] -- Generating done
+[0.627s] -- Build files have been written to: /home/manideep/FrankaSimulator_Ws/build/panda_ros2_gazebo
+[0.630s] Invoked command in '/home/manideep/FrankaSimulator_Ws/build/panda_ros2_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manideep/ws_moveit2/install/moveit_configs_utils:/home/manideep/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/manideep/FrankaSimulator_Ws/src/PandaRobot/panda_ros2_gazebo -DCMAKE_INSTALL_PREFIX=/home/manideep/FrankaSimulator_Ws/install/panda_ros2_gazebo
+[0.631s] Invoking command in '/home/manideep/FrankaSimulator_Ws/build/panda_ros2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manideep/ws_moveit2/install/moveit_configs_utils:/home/manideep/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/manideep/FrankaSimulator_Ws/build/panda_ros2_gazebo -- -j16 -l16
+[0.669s] Invoked command in '/home/manideep/FrankaSimulator_Ws/build/panda_ros2_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manideep/ws_moveit2/install/moveit_configs_utils:/home/manideep/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/manideep/FrankaSimulator_Ws/build/panda_ros2_gazebo -- -j16 -l16
+[0.676s] Invoking command in '/home/manideep/FrankaSimulator_Ws/build/panda_ros2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manideep/ws_moveit2/install/moveit_configs_utils:/home/manideep/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/manideep/FrankaSimulator_Ws/build/panda_ros2_gazebo
+[0.681s] -- Install configuration: ""
+[0.682s] -- Installing: /home/manideep/FrankaSimulator_Ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/config
+[0.682s] -- Installing: /home/manideep/FrankaSimulator_Ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/config/panda_controller.yaml
+[0.682s] -- Installing: /home/manideep/FrankaSimulator_Ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/launch
+[0.682s] -- Installing: /home/manideep/FrankaSimulator_Ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/launch/panda_simulation.launch.py
+[0.682s] -- Installing: /home/manideep/FrankaSimulator_Ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/urdf
+[0.682s] -- Installing: /home/manideep/FrankaSimulator_Ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/urdf/panda_transmission.xacro
+[0.682s] -- Installing: /home/manideep/FrankaSimulator_Ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/urdf/box.urdf
+[0.682s] -- Installing: /home/manideep/FrankaSimulator_Ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/urdf/panda_ros2control.xacro
+[0.682s] -- Installing: /home/manideep/FrankaSimulator_Ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/urdf/panda.urdf.xacro
+[0.682s] -- Installing: /home/manideep/FrankaSimulator_Ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/urdf/panda_macro.urdf.xacro
+[0.682s] -- Installing: /home/manideep/FrankaSimulator_Ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/worlds
+[0.682s] -- Installing: /home/manideep/FrankaSimulator_Ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/worlds/panda.world
+[0.682s] -- Installing: /home/manideep/FrankaSimulator_Ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/meshes
+[0.682s] -- Installing: /home/manideep/FrankaSimulator_Ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/meshes/visual
+[0.682s] -- Installing: /home/manideep/FrankaSimulator_Ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/meshes/visual/link5.dae
+[0.683s] -- Installing: /home/manideep/FrankaSimulator_Ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/meshes/visual/link0.dae
+[0.684s] -- Installing: /home/manideep/FrankaSimulator_Ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/meshes/visual/hand.dae
+[0.684s] -- Installing: /home/manideep/FrankaSimulator_Ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/meshes/visual/finger.dae
+[0.684s] -- Installing: /home/manideep/FrankaSimulator_Ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/meshes/visual/link7.dae
+[0.684s] -- Installing: /home/manideep/FrankaSimulator_Ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/meshes/visual/link4.dae
+[0.685s] -- Installing: /home/manideep/FrankaSimulator_Ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/meshes/visual/link6.dae
+[0.686s] -- Installing: /home/manideep/FrankaSimulator_Ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/meshes/visual/link2.dae
+[0.686s] -- Installing: /home/manideep/FrankaSimulator_Ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/meshes/visual/link3.dae
+[0.687s] -- Installing: /home/manideep/FrankaSimulator_Ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/meshes/visual/link1.dae
+[0.688s] -- Installing: /home/manideep/FrankaSimulator_Ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/meshes/collision
+[0.688s] -- Installing: /home/manideep/FrankaSimulator_Ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/meshes/collision/link1.stl
+[0.688s] -- Installing: /home/manideep/FrankaSimulator_Ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/meshes/collision/link2.stl
+[0.688s] -- Installing: /home/manideep/FrankaSimulator_Ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/meshes/collision/link0.stl
+[0.688s] -- Installing: /home/manideep/FrankaSimulator_Ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/meshes/collision/link3.stl
+[0.688s] -- Installing: /home/manideep/FrankaSimulator_Ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/meshes/collision/link7.stl
+[0.688s] -- Installing: /home/manideep/FrankaSimulator_Ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/meshes/collision/hand.stl
+[0.688s] -- Installing: /home/manideep/FrankaSimulator_Ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/meshes/collision/finger.stl
+[0.688s] -- Installing: /home/manideep/FrankaSimulator_Ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/meshes/collision/link6.stl
+[0.688s] -- Installing: /home/manideep/FrankaSimulator_Ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/meshes/collision/link4.stl
+[0.688s] -- Installing: /home/manideep/FrankaSimulator_Ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/meshes/collision/link5.stl
+[0.688s] -- Installing: /home/manideep/FrankaSimulator_Ws/install/panda_ros2_gazebo/share/ament_index/resource_index/package_run_dependencies/panda_ros2_gazebo
+[0.688s] -- Installing: /home/manideep/FrankaSimulator_Ws/install/panda_ros2_gazebo/share/ament_index/resource_index/parent_prefix_path/panda_ros2_gazebo
+[0.688s] -- Installing: /home/manideep/FrankaSimulator_Ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/environment/ament_prefix_path.sh
+[0.688s] -- Installing: /home/manideep/FrankaSimulator_Ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/environment/ament_prefix_path.dsv
+[0.688s] -- Installing: /home/manideep/FrankaSimulator_Ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/environment/path.sh
+[0.688s] -- Installing: /home/manideep/FrankaSimulator_Ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/environment/path.dsv
+[0.688s] -- Installing: /home/manideep/FrankaSimulator_Ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/local_setup.bash
+[0.688s] -- Installing: /home/manideep/FrankaSimulator_Ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/local_setup.sh
+[0.688s] -- Installing: /home/manideep/FrankaSimulator_Ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/local_setup.zsh
+[0.688s] -- Installing: /home/manideep/FrankaSimulator_Ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/local_setup.dsv
+[0.688s] -- Installing: /home/manideep/FrankaSimulator_Ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/package.dsv
+[0.689s] -- Installing: /home/manideep/FrankaSimulator_Ws/install/panda_ros2_gazebo/share/ament_index/resource_index/packages/panda_ros2_gazebo
+[0.689s] -- Installing: /home/manideep/FrankaSimulator_Ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/cmake/panda_ros2_gazeboConfig.cmake
+[0.689s] -- Installing: /home/manideep/FrankaSimulator_Ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/cmake/panda_ros2_gazeboConfig-version.cmake
+[0.689s] -- Installing: /home/manideep/FrankaSimulator_Ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/package.xml
+[0.690s] Invoked command in '/home/manideep/FrankaSimulator_Ws/build/panda_ros2_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manideep/ws_moveit2/install/moveit_configs_utils:/home/manideep/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/manideep/FrankaSimulator_Ws/build/panda_ros2_gazebo

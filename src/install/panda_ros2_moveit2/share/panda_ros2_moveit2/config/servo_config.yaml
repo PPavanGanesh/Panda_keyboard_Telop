@@ -1,0 +1,14 @@
+# Servo configuration for MoveIt
+use_gazebo: true
+move_group_name: panda_arm
+planning_frame: base_link
+ee_frame_name: panda_link8
+command_in_type: "unitless"
+scale: 0.3
+linear_scale: 0.3
+angular_scale: 0.3
+publish_period: 0.01
+jog_frame: base_link
+low_pass_filter_coeff: 10
+joint_topic: /joint_states
+command_out_topic: /servo_commands

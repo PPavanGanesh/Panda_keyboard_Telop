@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "ros2_data__py",
+		"source" : "/home/manideep/FrankaSimulator_Ws/build/ros2_data/ros2_data__py"
+	}
+}
